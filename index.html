@@ -1,21 +1,38 @@
 <html>
   <head>
-      <meta charset="utf-8">
-      <title>MilkYoPost</title>
+      <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+      <title>HS Media</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300" rel="stylesheet">
       <style>
-        .<header>
+        .header
           {
-            position: absolute;
+            position: relative;
+            color: #D3D3D3;
+            transform: translate(0%, 15vw);
             font-family: 'Roboto';
           }
-        </header>
+          .Button {
+            transition-duration: 0.4s;
+            background-color: grey;
+            color: white;
+            position: absolute;
+            border: none;
+            font-size: 1vw;
+            padding: 1.5em 3em;
+            transform: translate(45.7em, 0vw);
+          }
+
+          .Button:hover {
+            background-color: #D3D3D3; /* Green */
+            color: black;
+          }
       </style>
   </head>
-  <body style="color: Black">
+  <body style="background-color: Black">
     <div class="header">
-      <p style="font-size: 3vw; font-family: 'Roboto';">HS Media</p>
-      <p style="font-size: 1.5vw; font-family: 'Roboto';">Photographer, designer and developer</p>
+      <p style="font-size: 3vw;" align="center">HS Media</p>
+      <p style="font-size: 1.5vw;" align="center">Photographer, designer and developer</p>
+      <button class="Button">More<button>
     </div>
   </body>
